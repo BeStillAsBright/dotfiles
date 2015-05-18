@@ -12,7 +12,7 @@ set cino+=g0
 
 set background=dark
 
-map <C-n> :NERDTreeToggle<CR>
+"map <C-n> :NERDTreeToggle<CR>
 "colorscheme base16-atelierheath
 colorscheme base16-tomorrow
 :let g:airline_theme='base16'
