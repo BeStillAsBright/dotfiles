@@ -13,9 +13,6 @@
 [submodule "vim/vim/bundle/vim-sensible"]
 	path = vim/vim/bundle/vim-sensible
 	url = git@github.com:tpope/vim-sensible.git
-[submodule "vim/vim/bundle/vim-sbd"]
-	path = vim/vim/bundle/vim-sbd
-	url = git@github.com:cespare/vim-sbd.git
 [submodule "vim/vim/bundle/vim-tomorrow-theme"]
 	path = vim/vim/bundle/vim-tomorrow-theme
 	url = git@github.com:chriskempson/vim-tomorrow-theme.git

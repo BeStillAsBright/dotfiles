@@ -12,10 +12,6 @@ set cino+=g0
 
 set background=dark
 
-" set up sbd to fix :bd
-nnoremap <silent> <leader>bd	:Sbd<CR>
-nnoremap <silent> <leader>bdm	:Sbdm<CR>
-
 map <C-n> :NERDTreeToggle<CR>
 "colorscheme base16-atelierheath
 colorscheme base16-tomorrow
