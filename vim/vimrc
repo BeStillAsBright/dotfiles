@@ -1,0 +1,34 @@
+set nocompatible
+call pathogen#infect()
+syntax on
+filetype plugin indent on
+set ruler laststatus=2
+set noexpandtab
+set shiftwidth=4
+set tabstop=4
+set hidden
+set cindent
+set cino+=g0
+
+set background=dark
+
+" set up sbd to fix :bd
+nnoremap <silent> <leader>bd	:Sbd<CR>
+nnoremap <silent> <leader>bdm	:Sbdm<CR>
+
+map <C-n> :NERDTreeToggle<CR>
+"colorscheme base16-atelierheath
+colorscheme base16-tomorrow
+:let g:airline_theme='base16'
+:let g:airline#extensions#tabline#enabled = 1
+:let g:airline#extensions#tabline#fnamemod = ':t'
+
+au FileType python setlocal expandtab tabstop=8 shiftwidth=4 softtabstop=4
+au FileType ruby setlocal expandtab tabstop=4 shiftwidth=2 softtabstop=2
+
+au FileType go setlocal noexpandtab tabstop=4 shiftwidth=4
+
+au FileType racket setlocal expandtab tabstop=4 shiftwidth=2 softtabstop=2
+au FileType scheme setlocal expandtab tabstop=4 shiftwidth=2 softtabstop=2
+au FileType lisp setlocal expandtab tabstop=4 shiftwidth=2 softtabstop=2
+
