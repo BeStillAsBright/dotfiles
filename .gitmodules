@@ -1,9 +1,6 @@
 [submodule "vim/vim/bundle/base16-vim"]
 	path = vim/vim/bundle/base16-vim
 	url = git@github.com:chriskempson/base16-vim.git
-[submodule "vim/vim/bundle/nerdtree"]
-	path = vim/vim/bundle/nerdtree
-	url = git@github.com:scrooloose/nerdtree.git
 [submodule "vim/vim/bundle/supertab"]
 	path = vim/vim/bundle/supertab
 	url = git@github.com:ervandew/supertab.git
